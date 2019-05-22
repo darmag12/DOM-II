@@ -4,6 +4,7 @@
 
 html {
   font-size: 62.5%;
+
 }
 
 html, body {
@@ -17,10 +18,17 @@ h1, h2, h3, h4, h5 {
 h1 {
   font-size: 4rem;
 }
+body{
+  background-image: url(/img/overlay.png), url(/img/fun-bus.jpg);
+  background-repeat: repeat, no-repeat;
+	background-size: auto, 100% 100%;
+	background-attachment: fixed;
+}
 
 h2 {
-  font-size: 3.2rem;
+  font-size: 3.5rem;
   padding-bottom: 10px;
+  color: indigo;
 }
 
 h4 {
@@ -30,13 +38,20 @@ h4 {
 
 p {
   line-height: 1.5;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   padding-bottom: 10px;
+  color: purple;
+  
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+.btn{
+  transition: .7s ease-in-out;
+  cursor: pointer;
+
 }
 
 .container {
